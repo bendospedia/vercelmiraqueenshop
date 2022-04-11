@@ -4,9 +4,9 @@
 		margin:0;
 		font-family: sans-serif;
 	}
-
+/* Background Utama Menu*/
 	.menu-malasngoding{
-		background-color: #6495ED;
+		background-color: #A52A2A;
 	}
 
 	.menu-malasngoding ul {
@@ -28,9 +28,9 @@
 		padding: 14px 16px;
 		text-decoration: none;
 	}
-
+/* Background menu Saat di dekati utama*/
 	.menu-malasngoding li a:hover{
-		background-color: #2525ff;
+		background-color: #A52A2A;
 	}
 
 	li.dropdown {
@@ -42,23 +42,27 @@
 	}
 
 	.isi-dropdown a:hover {
-		color: #fff !important;
+		color: #A52A2A !important;
 	}
-
+/* Background menu dropdown sub menu*/
 	.isi-dropdown {
 		position: absolute;
 		display: none;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
-		background-color: #f9f9f9;
+		background-color: #FAEBD7;
 	}
-
+/*Warna Tulisan sub menu*/
 	.isi-dropdown a {
-		color: #3c3c3c !important;
+		color: #0000FF !important;
 	}
-
+/*Warna Tulisan sub menu dan warna backgroun menu saat didekati*/
 	.isi-dropdown a:hover {
-		color: #232323 !important;
-		background: #f3f3f3 !important;
+		color: 	#00FFFF !important;
+		background: #FFE4C4 !important;
 	}
+	
+	
+	
+	
 </style>
